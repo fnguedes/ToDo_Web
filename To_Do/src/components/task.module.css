@@ -1,0 +1,46 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 4.5rem;
+	width: 46rem;
+	background-color: var(--gray-500);
+	padding-inline: 1rem;
+	align-items: center;
+	gap: 1rem;
+	border-radius: 1rem;
+}
+
+.checkButton {
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+	border-radius: 2rem;
+	border-color: var(--purple-500);
+	background: var(--purple-500);
+	color: var(--white);
+}
+
+.uncheckButton {
+	border-color: var(--blue-500);
+	background: transparent;
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+	border-radius: 2rem;
+}
+
+.trashButton {
+	background: transparent;
+	cursor: pointer;
+	color: var(--white);
+	border: none;
+}
+
+.text {
+	flex: 1;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: var(--white);
+	width: 30.5rem;
+	font-size: 1.15rem;
+}

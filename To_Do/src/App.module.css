@@ -1,0 +1,27 @@
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.noTasks {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 2rem;
+	margin-top: 1rem;
+	font-weight: 500;
+}
+
+.subtitle {
+	margin-top: 1rem;
+	font-size: 1.2rem;
+}
